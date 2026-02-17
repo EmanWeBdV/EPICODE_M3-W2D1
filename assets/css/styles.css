@@ -1,0 +1,53 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+  margin-top: 10em;
+}
+
+body {
+  background-color: hsla(240, 9%, 6%, 1);
+  background-image:
+    radial-gradient(at 150% 0%, hsla(247, 100%, 67%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(150, 64%, 54%, 1) 0px, transparent 50%);
+}
+
+.navbar-brand img {
+  width: 3rem !important;
+  height: auto !important;
+}
+
+.navbar {
+  margin-top: 1em;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(3.1px);
+  border: 1px solid rgba(255, 255, 255, 0.26);
+}
+
+.navbar a {
+  color: #f4f4f6;
+}
+
+.navbar a:hover {
+  color: #6f5bff;
+}
+
+.navbar a:active {
+  color: #3fd58b;
+}
+
+.nav-link.active {
+  color: #6f5bff !important;
+}
+
+h2 {
+  color: #f4f4f6;
+}
+
+.card {
+  border: none;
+}
